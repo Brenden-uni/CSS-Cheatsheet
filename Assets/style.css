@@ -1,0 +1,128 @@
+
+body{
+    background-color: #ededf6 ;
+    color: #445876;
+}
+
+header{
+    background-color: #31343d;
+    justify-content: space-between;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    align-items: center;
+}
+
+header h1 {
+    background-color: #92cccd;
+    padding: 5px;
+}
+
+header div a {
+    color: #92cccd;
+    padding-right: 2rem;
+    font-weight:600;
+}
+
+article {
+    background-color: rgb(41, 43, 168);
+    padding-top: 4rem;
+}
+
+article h1 {
+    
+    border-radius:10px;
+    padding: 5px;
+    background-color: #92cccd;
+    margin-right: 2rem;
+    margin-bottom: 1rem;
+}
+
+.about-me {
+    margin-top: 1rem;
+}
+
+.about-me h1 {
+    text-align: end;
+
+    flex: 0 0 300px;
+    padding-right: 2rem;
+    margin-bottom: 2rem;
+
+    border-right: 4px solid #31343d;
+    border-radius: 2px;
+}
+
+.about-me ul li {
+    margin-bottom: 1rem;
+    padding-left: 1rem;
+    list-style: none;
+}
+
+main h1 {
+    text-align: end;
+
+    flex: 0 0 300px;
+    padding-right: 2rem;
+    margin-bottom: 1rem;
+
+    border-right: 4px solid #31343d;
+    border-radius: 2px;
+}
+
+main .filled img {
+    flex: 1 1 100%;
+    margin: 5px;
+    padding: 5px;
+    background-color: aqua;
+    border:4px solid black;
+    border-radius: 5px;
+}
+
+main .filled img:hover {
+    background-color: red;
+}
+
+main .filled img:active {
+    background-color: purple ;
+    transform: rotate(5deg);
+}
+
+main .media img {
+    height: 200px;
+    width: 200px;
+    margin: 5px;
+    padding: 5px;
+    background-color: aqua;
+    border:4px solid black;
+    border-radius: 5px;
+}
+
+main .media img:hover {
+    background-color: red;
+}
+
+main .media img:active {
+    background-color: purple ;
+    transform: rotate(5deg);
+}
+
+footer{
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer .footer1 {
+
+    text-align: end;
+    flex: 0 0 300px;
+    padding-right: 2rem;
+
+    border-right: 4px solid #31343d;
+    border-radius: 2px;
+}
+
+
+
+
+
+

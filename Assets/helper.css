@@ -1,0 +1,56 @@
+.primary{
+    color:
+}
+
+.header{
+    text-align: end;
+
+    flex: 0 0 15%;
+    padding-right: 2rem;
+
+    border-right: 3px solid #31343d;
+}
+
+.title{
+    font-size: 3rem;
+}
+
+.d-flex{
+    display: flex;
+}
+
+.justify-centre{
+    justify-content: center;
+}
+
+.justify-end{
+    justify-content:flex-end;
+}
+
+.align-end{
+    align-items: flex-end;
+}
+
+.flex-col{
+    flex-direction: column;
+}
+
+.my-2{
+    margin-bottom: calc(var(--spacing-unit)*2);
+    margin-top: calc(var(--spacing-unit)*2);
+}
+
+.border-dashed{
+    border-style: dotted;
+    border-width: 2px;
+    border-color: white;
+}
+
+.border-solid{
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 30px; 
+}
+.w-90{
+    width: 90%;
+}
